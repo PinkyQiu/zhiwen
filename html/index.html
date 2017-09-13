@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>知问前端</title>
+	<link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/uEditor.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../images/q.ico">
+	<script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="../js/jquery-migrate-1.2.1.js"></script>
+	<script type="text/javascript" src="../js/jquery-ui.js"></script>
+	<script type="text/javascript" src="../js/jquery.validate.js"></script>
+	<script type="text/javascript" src="../js/jquery.form.js"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../js/uEditor.js"></script>
+	<script type="text/javascript" src="../js/index.js"></script>
+</head>
+<body>
+	<div id="hearder">
+		<div class="hearderMain">
+			<h1>知问</h1>
+			<div class="hearderSearch">
+				<input type="text" class="search" name="search">
+			</div>
+			<div class="hearderButton">
+				<button id="searchButton">查询</button>
+				<button id="questionButton">提问</button>
+			</div>
+			<div class="hearderMember">
+				<a href="javascript:void(0)" id="regA">注册</a>
+				<a href="javascript:void(0)" id="member">用户</a>|
+				<a href="javascript:void(0)" id="loginA">登录</a>
+				<a href="javascript:void(0)" id="logoutA">退出</a>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="mainLeft">
+			<div id="tabs">
+				<ul>
+					<li>
+						<a href="#tab1">最热门的提问</a>
+					</li>
+					<li>
+						<a href="#tab2">小编推荐的提问</a>
+					</li>
+					<li>
+						<a href="#tab3">评论最多的提问</a>
+					</li>
+				</ul>
+				<div id="tab1">
+				  <div class="content1">
+				    <h3>深圳年轻人创想变现第一步 创意市集练摊儿去</h3>
+				    <div class="editor1">
+				      <p>你是否曾有过当设计师的梦想？穿自己制作的服饰，用自己设计的碗碟，戴自己制作搭配的首饰，用自己手工打造的笔记本？你是否曾想过将自己设计的产品与更多的人分享？</p>
+				      <p>在繁忙紧张的工作中，“螺丝钉”们似乎离自己的“手作梦”很远，但在创意市集上，每一个人都可以成为打扮生活的创想者。
+				      </p>
+				    </div>
+				  </div>
+				</div>
+				<div id="tab2">
+				  <div class="content1">
+					  <h3>多种措施推进租赁住房建设 深圳试点加快发展住房租赁</h3>
+					  <div class="editor1">
+					    <p>住房和城乡建设部会同国家发展改革委、公安部、财政部、国土资源部等九部门近日联合印发《关于在人口净流入的大中城市加快发展住房租赁市场的通知》，将采取多种措施加快推进租赁住房建设，培育和发展住房租赁市场。
+					    </p>
+					  </div>    
+				  </div>
+				</div>
+				<div id="tab3">
+				  <div class="content1">
+					  <h3>危房问题一定要及时解决</h3>
+					  <div class="editor1">
+					    <p>新华社香港7月1日电（记者 陈键兴、周雪婷）国家主席习近平1日上午在香港特别行政区行政长官林郑月娥陪同下，考察港珠澳大桥香港段建设工地和香港国际机场第三跑道建设情况。
+					    </p>
+					  </div>
+				  </div>
+			  </div>
+			</div>
+			<div class="content"></div>
+		</div>
+		<div class="mainRight">
+			<div id="accordion">
+				<h3>我关注的人</h3>
+				<div>内容1</div>
+				<h3>关注我的人</h3>
+				<div>内容2</div>
+				<h3>我关注的问题</h3>
+				<div>内容三</div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	<form action="123.html" id="reg" title="会员注册">
+	  <ol class="regError"></ol>
+	  <p>
+	    <label for="user">账号:</label>
+	  	<input type="text" name="user" class="text" id="user">
+	  	<span class="star">*</span>
+	  </p>
+	  <p>
+	    <label for="pass">密码:</label>
+	  	<input type="password" name="pass" class="text" id="pass">
+	  	<span class="star">*</span>
+	  </p>
+	  <p>
+	    <label for="email">邮箱:</label>
+	  	<input type="text" name="email" class="text" id="email">
+	  	<span class="star">*</span>
+	  </p>
+	  <p>
+	    <label class="sex">性别:</label>
+	  	<input type="radio" name="sex" value="male" checked="checked" id="male"><label for="male">男</label><input type="radio" name="sex" value="female" id="female"><label for="female">女</label>
+	  </p>
+	  <p>
+	    <label for="date">生日:</label>
+	  	<input type="text" name="birthday" readonly="readonly" class="text" id="date">
+	  </p>
+	</form>
+	<form action="123.html" id="login" title="会员登录">
+	  <ol class="loginError"></ol>
+	  <p>
+	    <label for="loginUser">账号:</label>
+	  	<input type="text" name="loginUser" class="text" id="loginUser">
+	  	<span class="star">*</span>
+	  </p>
+	  <p>
+	    <label for="loginPass">密码:</label>
+	  	<input type="password" name="loginPass" class="text" id="loginPass">
+	  	<span class="star">*</span>
+	  </p>
+	  <p>
+	  	<input type="checkbox" name="expires" id="expires" checked="checked" />
+	  	<label for="expires">登录后有效期一周</label>
+	  </p>	  
+	</form>
+	<form action="123.html" id="question" title="提问">
+	  <p>
+	    <label for="title">问题名称:</label>
+	  	<input type="text" name="title" class="text" id="title" style="width:390px;">
+	  </p>
+	  <p>
+	  	<textarea name="content" class="uEditorCustom">请输入问题描述</textarea>
+	  </p>
+	</form>
+	<div id="loading">数据交互中...</div>
+	<div id="error">请登录后操作...</div>
+	<div class="footer">
+	 <span>知问俱乐部</span>
+	 <span>|</span>
+	 <span>zhiwen.com</span>
+
+	</div>
+	
+		
+	<!-- <div id="login" title="会员登录">表单区</div> -->
+</body>
+</html>

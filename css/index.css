@@ -1,0 +1,276 @@
+body{
+	background-color: #fff;
+	margin: 40px 0 0 0;
+}
+#hearder{
+	height: 40px;
+	width: 100%;
+	background: url(../images/heardebg.jpg) repeat-x;
+	position: absolute;
+	top: 0;
+}
+#hearder .hearderMain{
+	width: 800px;
+	height: 40px;
+	text-align: center;
+	margin: 0 auto;
+}
+#hearder .hearderMain h1{
+	font-size: 20px;
+	color: #666;
+	line-height: 40px;
+	float: left;
+	padding: 0 10px;
+}
+#hearder .hearderMain .hearderSearch{
+	float: left;
+	padding: 6px 0 0 0;
+}
+.hearderMain .hearderSearch .search{
+	width: 300px;
+	height: 24px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	background: #fff;
+	color: #666;
+	font-size: 14px;
+	text-indent: 5px;
+}
+.hearderMain .hearderButton{
+	float: left;
+	padding: 5px;
+	text-align: center;
+}
+#searchButton,#questionButton{
+	height: 30px;
+	border-radius: 8px;
+	line-height: 20px;
+}
+.hearderMember{
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	color: #555;
+	font-size: 14px;
+}
+#hearder .hearderMember a{
+	color: #555;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.ui-widget-header{
+	background-color: #f6f6f6;
+}
+#reg p .text,
+#login p .text
+#question p .text{
+	border:1px solid #ccc;
+	width: 200px;
+	height: 25px;
+	background-color: #fff;
+	color: #666;
+	line-height: 25px;
+	text-indent: 5px; 
+	border-radius: 4px;
+}
+#reg,#login,#question{
+	padding: 15px 0 0 15px;
+}
+#reg p,#login p,#question p{
+	margin: 10px 0;
+}
+#reg p label,#login p label,#question p label{
+	font-size: 14px;
+	color: #666;
+}
+#reg p .star,#login p .star,#question p .star{
+	color: maroon;
+	font-size: 14px;
+}
+#reg ol,#login ol,#question ol{
+	padding: 0 0 0 20px;
+	color: maroon;
+}
+#reg ol li,#login ol li,#question ol li{
+	height: 20px;
+}
+#reg p input,#login p input{
+	margin: 0 0 0 6px;
+}
+#reg p .sex{
+	margin-right: 7px;
+}
+#reg .succ,#login .succ,#question .succ{
+	display: inline-block;
+	width: 20px;
+	background:url(../images/success.png) no-repeat;
+}
+.ui-widget-content{
+	color: #666;
+}
+.ui-menu .ui-state-focus,
+.ui-menu .ui-state-active{
+	background-color: #f6f6f6;
+	color: #666;
+	border: none;
+}
+.ui-datepicker-month,
+.ui-datepicker-year{
+	vertical-align: top;
+}
+.ui-state-active, 
+.ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active, 
+a.ui-button:active, 
+.ui-button:active, 
+.ui-button.ui-state-active:hover{
+	background-color: #e9e9e9;
+	border:1px solid #c5c5c5;
+}
+.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-s,
+.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-e{
+	position: absolute;
+	left: -3px;
+}
+.ui-dialog .ui-dialog-titlebar{
+	padding: 0;
+}
+#error{
+	background: url(../images/error.png) no-repeat 10px;
+	line-height:28px;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 36px;
+	color: #666;
+}
+#loading{
+	background: url(../images/loading.png) no-repeat 10px;
+	line-height:28px;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 36px;
+	color: #666;
+}
+#login p #expires{
+	margin:0 0 0 116px;
+}
+#main{
+	width: 800px;
+	margin: 50px auto;
+}
+#main .mainLeft{
+	width: 580px;
+	float: left;
+}
+#main .mainRight{
+	width: 200px;
+	float: right;
+}
+#tabs{
+	border:none;
+}
+#tab1,#tab2,#tab3{
+	border:1px solid #dddddd;
+	border-top: none;
+	position: relative;
+	top: -2px;
+}
+.content{
+	margin: 6px;
+	text-indent: 2em;
+}
+.content h4{
+	color: #666;
+	font-weight: normal;
+	margin: 7px 0;
+	text-indent: 0;
+}
+.content h3, #tabs .content1 h3{
+	color: #369;
+	text-align: center;
+}
+.content .editor,#tabs .content1 .editor1{
+	color: #333;
+	line-height: 180%;
+	margin-top: 5px;
+	/*overflow: hidden;*/
+}
+.content .bottom{
+	padding: 5px 0 0 0 ;
+}
+.content .hr{
+  color: #ccc;
+  height: 1px;
+}
+.content .comment{
+	color: #369;
+	cursor: pointer;
+}
+.content .commentList{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px 10px;
+	display: none;
+}
+.content .commentList dl{
+  padding: 3px 0px 5px 0;
+}
+.content .commentList dl.commentContent{
+	border-bottom: 1px solid #ccc;
+}
+.content .commentList dl dt{
+  color: #369;
+}
+.content .commentList dl dd{
+  color: #333;
+  line-height: 150%;
+}
+.content .commentList dl dd.date{
+	color: #666;
+}
+.content .commentAdd{
+  text-align: right;
+}
+.content .commentAdd input{
+	cursor: pointer;
+}
+.content .commentLoad dd{
+	background:url(../images/commentLoad.gif) no-repeat 100px 45%;
+}
+.content .commentAdd textarea{
+	width: 98%;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 5px;
+	font-size: 12px;
+	color: #666;
+	margin: 0 0 2px 0;
+
+}
+.content .loadMore{
+	width: 94%;
+	margin: 10px 0 0 0;
+	height: 30px;
+	line-height: 30px;
+}
+.content .up{
+	float: right;
+	color: #369;
+	cursor: pointer;
+}
+.content .down{
+	color: #369;
+	cursor: pointer;
+}
+.footer{
+	clear: both;
+	padding: 10px;
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+}
+.footer span{
+	margin-right: 3px;
+}
